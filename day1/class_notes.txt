@@ -1,0 +1,289 @@
+What is Maven?
+	Build Tool - Wrong
+	Project management tool
+Free 
+From Apache
+Developed in Java
+For Java
+----------------------------------------------
+What you do in a software project so Maven manages project?
+	config
+	Download the src code
+	compile
+	package
+	Unit Test
+	AT
+	Deploying
+	Clean
+	Dependency management
+------------------------
+	REPEAT
+
+History Manven?
+	Apache.org
+		1000's open source
+			Dependency mgmt
+			compile
+			test
+			install
+			clean
+			report
+			document	
+	--------------------------
+	Maven automates
+
+Maven says -> if you follow my system ==> I automate everything
+
+Other tools
+Ant, Gradle
+
+How to install Maven?
+pre 
+	JRE ==> JDK
+		- Download form apache org
+			https://maven.apache.org/download.cgi
+		- Extract it in c drive or opt
+		- Set Path
+			maven_home/hin --> PATH
+			External plugins
+
+
+How maven works?
+
+Maven Software
+	- Maven core 	= Just understand the plugins
+	- Plugins	= feature of maven
+				- core plugins
+
+
+Project Dir Structure
+Build Prep
+Compile
+Testing
+Packaging
+Verioning
+Cleanup
+
+-----------------------
+Generate project from command line
+
+	- mvn archetype:generate
+
+--------------------------------------
+Maven Build Life cycle: 
+
+HUMAN: 	 BORN -> KID -> TEEN -> MID -> OLD -> DIE
+
+ No goals have been specified for this build.
+
+You must specify a valid lifecycle phase or a goal in the format 
+<plugin-prefix>:<goal> or <plugin-group-id>:<plugin-artifact-id>[:<plugin-version>]:<goal>.
+
+
+ Available lifecycle phases are: validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy, pre-clean, clean, post-clean, pre-site, site, post-site, site-deploy.
+
+
+Software =>   Code -> Analyze -> compile -> test -> package -> deploy -> at -> release
+
+Maven	=>	3 Default Life Cycle
+		Default -  24 Phases 
+		Site	-  4 Phases
+		Clean	-  3 Phases
+
+
+LifeCycle	PHASES		GOALS		How to reach ??
+		Compile		compile		plugins
+		test		test
+		pack		pack
+		deploy		deploy 
+
+-----------------------------------------------------
+
+A Build Lifecycle is Made Up of Phases
+Each of these build lifecycles is defined by a different list of build phases, wherein a build phase represents a stage in the lifecycle.
+
+For example, the default lifecycle comprises of the following phases (for a complete list of the lifecycle phases, refer to the Lifecycle Reference):
+
+	validate - validate the project is correct and all necessary information is available
+	compile - compile the source code of the project
+	test - test the compiled source code using a suitable unit testing framework. These tests should not require the code be packaged or deployed
+	package - take the compiled code and package it in its distributable format, such as a JAR.
+	verify - run any checks on results of integration tests to ensure quality criteria are met
+	install - install the package into the local repository, for use as a dependency in other projects locally
+	deploy - done in the build environment, copies the final package to the remote repository for sharing with other developers 
+-----------------------------------------
+
+Embed Server using Maven
+	Embedded Jetty server
+
+
+-------------------------------------
+
+Exisitng java project into Maven project
+
+	1. Right click -> configure -> conver to manven project
+        2. Lib dir -> find jar  files (junit-3.8.1)
+	3. search in maven repo, copy dependency
+	4. add depedency in pom.xml
+<!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>3.8.1</version>
+    <scope>test</scope>
+</dependency>
+----------------------------------------------
+
+Maven 6 dependency scopes
+
+	Compile	: 
+	Provided : runtime
+	runtime
+	test
+	system
+	import 
+
+
+ What is Maven?
+ LifeCycle and Phases
+ Architecture
+ Using command line
+ Using Editor setup 
+ Using editor setup web app
+ Cloning from git 
+
+
+
+
+----------------------------------------------------------
+
+ jan  my project is running
+ aug  my project not running
+
+ Flipkart  :  Jan 	April	
+
+ 100+ 
+
+Config:
+
+Name, Email, Default Editor, line ending
+
+	System:  All users
+	Global:	 All Repos of the current User
+	Local :  the current Repository
+	
+
+ git config --global user.name "srmono"
+ git config --global user.email "email@email.com"
+  git config --global core.editor "code --wait"
+	Windows:    	git config --global core.autocrlf  true
+	Mac:  		git config --global core.autocrlf  input
+ git config --global -e
+
+
+Windows						Mac/linux
+\r (carriage return) , \n (Line Feed)		\r
+
+  CR 
+
+
+---------INIT GIT ----
+
+
+ 	git add .		adds all files to the stage
+	git add filename
+	git add file1 file2
+	git add *.js	
+
+	git status
+
+   ----------------------------------
+Skip stage
+
+	git commit -am "message"
+
+-------------------------
+commit Best practices
+	1. Don't commit more offen 
+	2. Make meaning full commit
+	3. Message 
+-------------------------------------
+
+Delete/remove , Short status , Renaming file
+
+viewing staged and unstaged changes?
+
+Diff tools: Kdiff3, p4merge, winmerge, vscode 
+
+	git config --global diff.tool vscode
+
+---------------------------------------------------
+
+View history:
+
+	git log
+	git log --oneline 
+	git log --oneline --revers
+
+View Commit
+
+git show 0d4b6bd
+git diff 0d4b6bd  0d4b6be
+git checkout 0d4b6bd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
