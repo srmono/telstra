@@ -1,0 +1,298 @@
+Agenda:
+ 1. Create Java Application that uses JDBC
+ 2. Inserting records into database
+ 3. Update records into database
+ 4. Delete records into database
+ 5. Reading records into database
+
+----------------------
+ Java Program   --->  Databse (MySQL, Oracle etc)
+---------------------------------
+
+JDBC driver, What is it?
+
+It is a software that acts as a mediator between the Java Program and database server. 
+Ex:  the driver translates the data from Java Data type to Database data type and vice versa.
+
+ Ex: Java String  --> VARCHAR
+
+----------------------------------------------------------
+
+
+ Drivers are Database specific 
+
+ java program ->  driver for mysql -> mysql db
+
+----------------------------
+
+4 types of drivers
+
+	1. Type 1: JDBC - ODBC bridge driver (not available from java 8)
+	2. Type 2: Native API Driver
+	3. Type 3: Network Protocol Driver
+	4. Type 4: Pure Java Driver
+
+----------------------------------------------
+
+Download and Using Drivers
+
+	1. Download Driver software for database we want to work with
+	2. Jhe driver software is generally availabe in the form of jar file
+
+eg: mysql-connector-java-8.0.22.jar
+
+--------------------------------------------------------
+
+JDBC URL, what is it?
+
+  JDBC URL is string which consists the information about the driver type and database   details to which the Java App needs to connect
+
+The string contains 
+	a. Jdbc protocol
+        b. DB name
+	c. Hostname or IP address  (localhost, flipkart.com: ip )
+	d. Database Port Number
+	e. DB System ID (called as SID)
+
+---------------------------------------------------------
+
+Example URL: protocol:type:driver@host:port:systemID
+	URL for oracle: 
+		jdbc:oracle:thin@localhost:1521:ORCL
+
+	URL for MySQL:
+		jdbc:mysql://localhost:3306:test
+
+-------------------------------------------------------------
+
+JDBC API (Application Programming Interface)
+
+	JDBC is a set of classes and interfaces used by java program to connect to db server to perform queries(create, read, update, delete operations)
+
+JDBC Packages:
+	Java.sql
+	javax.sql
+---------------------------------
+Java.sql
+	DriverManager Class
+	Connection Interface
+	Statement Interface
+	ResultSet Interface
+	PreparedStatement Interface
+	CallableStatement Interface
+------------------------------------------
+
+javax.sql
+	DataSource Interface
+	RowSet Interface
+
+--------------------------------------------------------
+
+DriverManager Class
+	This class contains the methods which are used to load JDBC drivers into memory and 	get the connection to the database
+
+	-->  registerDriver()
+	-->  getConnection() : method
+		
+	Connection cn = DriverManager.getConnection(url,username, password)
+----------------------------------------------------------------
+Connection Interface
+	This interface contains the methods which are used to create the statement objects
+	such as Statement, PreparedStatement, CallableStatement
+
+	--> createStatement()
+	--> prepareStatement()
+	--> prepareCall()
+
+-----------------------------------
+createStatement()
+
+	Connection cn = DriverManager.getConnection(url,username, password)
+ 	
+	Statement st = cn.createStatement()
+---------------------------------------------------------------
+Statement Interface 
+	This interface contains the methods which are used to execute the SQL commands
+	--> executeUpdate()
+	--> executeQuery()
+-----------------------------------------------------
+
+executeUpdate() method
+
+	Connection cn = DriverManager.getConnection(url,username, password)
+ 	
+	Statement st = cn.createStatement()
+	
+	int i = st.executeUpdate("INSERT INTO emp VALUES(101,'a','developer')");
+
+------------------------------------------------------
+
+executeQuery() method
+
+	Connection cn = DriverManager.getConnection(url,username, password)
+ 	
+	Statement st = cn.createStatement()
+	
+	ResultSet rs = st.executeQuery("SELECT * FROM emp");
+
+----------------------------------------------------------------------
+
+ResultSet Interface
+	This interface contains the methods which are used to process the results of an SQL 	SELECT query
+	
+	--> next() :   [emp1, emp2, emp3 ]
+	--> getString() 
+	--> getInt()
+
+-------------------------------------------------
+
+next() method, getString() method, getInt() Method
+
+
+	Connection cn = DriverManager.getConnection(url,username, password)
+ 	
+	Statement st = cn.createStatement()
+	
+	ResultSet rs = st.executeQuery("SELECT * FROM emp");
+
+	while(rs.next()){
+		int empid = rs.getInt("empid");
+		String empname = rs.getString("empname")
+	}
+
+---------------------------------------------------------------------
+SQLException Class
+
+	This class represents the exception that is thrown by most of the JDBC Mehods
+
+
+---------------------------------------------------------------
+
+Steps in developing a JDBC program
+
+	Download and add the driver jar file to the project	Done
+	Load and register the JDBC Driver class
+	Establish the connection to the database
+	Create the Statement Object
+	Execute the SQL commands
+	Process the results if any
+
+
+Java Project
+Database : 
+-------------------------------------------------------------
+MySQL Database:
+
+CREATE DATABASE telstra;
+
+CREATE TABLE employee(
+empid INT(4),
+empname VARCHAR(20),
+designation VARCHAR(20)
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
