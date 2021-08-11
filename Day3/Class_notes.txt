@@ -1,0 +1,157 @@
+Concept:
+	Photo Frame ? 
+		Wood , Nails, Glass, picture, tools
+		
+		4 hrs, 1 day ?
+
+	Photo Studio : Purchase Photo Frame : Paste pic  5
+	
+	Time
+	Finishing is perfect 
+	variety of models are available
+	.........
+---------------------------------------------------------------------------
+Benefits of Frameworks in Software development
+	Boosts the development process
+	Saves lot of time
+	Eases Debuggin and Application Maintenance
+	Reduces Code Lengh
+	Improve Datbase/Code Proficiency
+	Reinforces security
+----------------------------------------------------------------------------
+Spring 
+
+  Content 
+
+	Spring Core , Spring Data , Spring WEB , Spring Boot
+	Spring Other important modules
+
+Pre Req?
+    Core JAVA , JDBC  , Servlet & JSP
+
+-----------------------------------------------------------------
+
+Spring Framework?
+
+ Spring is a Dependency Injection Framework to make java apps to loosely coupled
+ 
+ JavaEE application : SF makes the easy development of JEE
+
+  Spring  Developed in 2003, Rod Johnson
+
+----------------------------------------------------------------------
+Depencency Injection
+IOC : Inversion of Control is a Design pattern 
+
+
+ Class Emp
+ {
+	
+ }
+
+ Class Lead
+ {
+	
+ }
+-------------------------------------------------------------------------
+AOP
+
+It takes out the direct dependency
+Crosscutting tasks from classes 
+
+Ex: -  we can have a separate class for logging, but again the functional clases will has to call these methods to achieve logging across the aplication 
+
+
+
+web page  (messages)        -      Servers (new messages)
+
+setTimeout( call new messages, 2)
+
+----------------------------------------------------------------------
+Eclipse
+TomCatServer
+Mysql  
+GUI workbench or phpmyadmin 
+
+
+ 1. Create a maven project
+ 2. Adding dependencies => Spring Core, Spring Context
+ 3. Creating Beans - Java Pojo 
+ 4. Creating Configuration file => config.xml
+ 5. Setter injection
+ 6. Main class: which can pull the object and use
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
