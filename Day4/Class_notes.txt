@@ -113,6 +113,9 @@ Controller	- interface b/w model and view
 	-> Create a view to show(page)
 
 
+domain.come/home
+
+
 
 
 
