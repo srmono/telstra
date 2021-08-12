@@ -1,0 +1,172 @@
+Agenda
+	Bean Life Cycle & Knowing Spring Bean PostProcessor 
+	Autowiring
+	Annotations
+	AOP
+	Spring MVC
+--------------------------------------------------------------------------------
+
+LIFE CYCLE METHODS OF SPRING BEAN
+
+	Spring provides 2 important methods for every bean
+	--> names of the methods can be changed
+	--> 
+		public void init();  
+
+		public void destroy(); //cleans up the code
+
+-------------------------------------------------------------------------------------
+
+Configuration Techniques
+
+	XML
+	Spring Interfaces
+	Annotation 
+
+--------------------------------------------------------
+
+Spring Interfaces
+
+	InitializingBean
+	DespossableBean
+
+----------------------------------------------
+
+Annotations
+
+	@PostConstruct
+	@PostDestroy
+
+
+--------------------------------------------------------
+
+Autowiring 
+
+	-> Feature of spring Framework in which spring container inject the dependencies automatically
+	-> Autowiring can't use to inject primptive and string values, it work with reference only
+
+
+-------------------------------------------------------------------------------------
+config.xml   --> Annotation
+
+AOP ?
+
+	-> AOP is pragramming paradigm that aims to increase modularity by allowing sepration of cross curring concerns
+	-> Process of applying services or external services as transaction management or logging to our application classes without modifying the code
+	-> This services also called cross cutting 
+ 	-> Aspect Oriented Programming complements OOP by providing another way of thinking about the programming structure
+
+---------------------------------------------------------------------
+
+AOP Terminology:
+
+  -> Aspect: An aspect is a modularization of a concern that cuts across multiple classes
+  -> Join Point: Join point is any point in your program such as method execution, exception handling, field access..,
+                 Spring supports only method execution joi point.
+  -> Advice: Advice represent an action taken by an aspect at particular joint point
+  -> Pointcut: It is an expression of AOP that matches join point.
+
+
+Spring Core
+Spring Context
+
+Spring aop
+aspectjrt
+aspectjweaver
+
+
+ xmlns:aop="http://www.springframework.org/schema/aop"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd   
+    http://www.springframework.org/schema/aop   
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd "
+-------------------------------------------------------------------------------------------------------------
+
+SPRING MVC? 
+
+	-> A spring MVC is sub framework of Spring Framework which is used to build web apps
+	-> It is build on top of Servlet API
+	-> It Follows the Model - View - Controller Design Pattern
+	-> It implements all the basic features of Spring core like IOC , DI
+
+Why SPING MVC?
+
+	1. Separate each role madal, view, controller etc
+	2. Power configuration
+	3. spring MVC is sub framework of Spring Framework which is used to build web apps, IOC
+	4. Rapid Application Development
+	5. Spring MVC is Flexible, east to test and there are many feature
+
+Model 		-  Data
+View  		- Presents data to user
+Controller	- interface b/w model and view
+
+  Company     client  -> manager  ->  staff (data, )  -> release manager
+-----------------------------------------------------------------------
+
+  Steps to create Spring MVC App
+
+	-> Configure the "dispatcher servlet" in web.xml
+	-> Create Spring configuration File
+	-> Configure View Resolver
+	-> Create Controller
+	-> Create a view to show(page)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

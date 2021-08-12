@@ -9,5 +9,8 @@ public class Test {
 		
 		Person p = (Person) context.getBean("person");
 		System.out.println(p);
+		
+		Adition add = (Adition) context.getBean("add");
+		add.dosum();
 	}
 }

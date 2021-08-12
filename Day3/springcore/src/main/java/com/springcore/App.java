@@ -12,9 +12,13 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!");
+//        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
         ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
-        Student student1 = (Student) context.getBean("student1");
+        Student student1 = (Student) context.getBean("student1", Student.class);
         
         System.out.println(student1);
+        
+        //context.registerShutdownHook();
     }
+    
 }
