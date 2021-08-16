@@ -1,0 +1,207 @@
+
+config : xml, annotation
+Spring Mvc 
+	Config		
+	Controller
+	Model
+
+web-inf views : jsp 
+
+
+
+
+
+
+
+--------------------------------------------------
+Spring Boot 
+	Spring Boot is module of Spring which we speed up the development
+	
+	Easy to create
+		Stand-alone 
+		Production-grade  --> just run 
+
+
+Why spring boot?
+	It provide easier and faster way to 
+		setup , 
+		configure
+	runs both
+
+	
+	Spring Framework + Embedded Servers - [configuration]  =  Spring Boot
+--------------------------------------------------------------
+Spring Boot Advantages
+
+	1. It creates stand alone spring apps that can started using java -jar
+	2. Embed Tomcat, Jetty or undertow directly (we don't need to deply war)
+	3. Provide opinionated 'starter' depedencies to simplify your build config
+	4. Atutomatically configure spring and 3rd party libraries whenever possible
+	5. Provide production ready features: such as metrics, health cheacks, and externalized 	   configuration
+	6. Absolutely no code generation and no requirement for XML configuration
+
+Annotations
+-----------------------------------------------------------------------------
+
+8 to 12 annotations
+
+	1. @SpringBootApplication
+		@EnableAutoConfiguration+ ,  @ComponentScan+ , @Configuration
+	2. @Configuration
+	3. @Bean
+  	4. @Autowired
+	5. @Component
+		@Controller (Component, MVC Controller, )
+		@Service (business Logic)
+		@Repository (Dao: Data Access Object )
+	6. @ComponentScan
+        7. @Qualifier
+  	8. @Lazy
+
+-------------------------------------------------
+
+Protocol	Domain
+https://	jsonplaceholder.typicode.com   /users
+https://	telstra.com		       /telcomServices
+https://	telstra.com		       /service
+https://	telstra.com		       /products
+https://	telstra.com		       /users
+
+------------------------------------------------------------------
+Resource : Products, orders, users   restaur....
+
+Method	Api				End Point			Desc
+
+GET 	https://flipkart.com/		{resources}/			Returns all resources
+GET	https://flipkart.com/		{resources}/{resource_id}	Returns resource by id
+POST	https://flipkart.com/		{resources}			Create Resource
+PUT	https://flipkart.com/		{resources}/{resource_id}	Update Resource full
+PATCH	https://flipkart.com/		{resources}/{resource_id}	Update Resource partial
+DELETE	https://flipkart.com/		{resources}/{resource_id}	Delete Resource
+
+
+----------------------------------------------------
+Vendor
+
+Shop ->     Laptops	==> flipkart
+
+flipkart.com/commissions/ check access?
+	commision
+	order
+	product
+	user
+
+
+
+	Create Products in their website
+	Orders placed by users 
+	Dispatch
+	Track
+	Payment
+	commission 
+	invoice...................
+	
+
+-------------------------------------------------------------------------
+
+What makes your API as REST
+
+when you send json response : REST like api
+
+	RMM Model 
+
+ 	0 1 2 3
+
+
+GET,POST, PUT, PATCH, DELETE	https://flipkart.com/product/
+GET,POST, PUT, PATCH, DELETE	https://flipkart.com/orders
+GET,POST, PUT, PATCH, DELETE	https://flipkart.com/user
+
+
+https://flipkart.com/products/
+
+[ 
+  {
+	pid: 1,
+	p_title: "p title",
+	p_price: 9797,
+	link: product_details_url 
+
+  }
+ , {}]
+
+-----------------------------
+
+	intellij : ? 
+
+
+@Retention(RetentionPolicy.RUNTIME)  
+
+  form -->  submit -->  server
+
+-----------------------------------------------------------
+
+JPA : 
+Java Persistence API
+
+It is used to persist data between java object and relational database 
+
+JPA acts as a bridge object oriented domains models and rdbms
+
+Connect 
+
+hosturl
+driver
+username
+password
+platform
+
+spring.h2.console.enabled=true
+spring.datasource.url=jdbc:h2:mem:tlsapp
+spring.datasource.driverClassName=org.h2.driver
+spring.datasource.username=sa
+spring.datasource.password=password
+spring.jpa.databse-platform=org.hibernate.dialent.H2Dialect
+------------------------------------------------------
+
+Entity: 
+	entity represents a table in relational database
+	each entity instance corresponds to a row in that table
+	@Entity: Annotation specifies that the class is an entity and mapped to a database table
+	@Table: specifies the name of the database table to used for mapping
+
+
+User: table
+
+	id
+	name
+	......
+
+@Repository ?
+
+    it is a mechanism for encapsulating storage, retrieval, and search behavior which emulates a collection of objects
+
+
+SpringBoot
+Adv sb
+creating sb app
+simple api
+REST API
+MicroService ARC
+h2 
+Spring Dev Tools
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
