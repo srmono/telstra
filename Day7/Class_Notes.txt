@@ -1,0 +1,62 @@
+Backend developer: implementing API (working?, test)
+
+	https://domain.com/api  -> front end dev -> create view/UI 
+
+Resource: department
+
+Method	Api				End Point			Desc
+
+GET 	https://domain.com/		{resources}/			Returns all resources
+GET	https://domain.com/		{resources}/{resource_id}	Returns resource by id
+POST	https://domain.com/		{resources}			Create Resource
+PUT	https://domain.com/		{resources}/{resource_id}	Update Resource full
+PATCH	https://domain.com/		{resources}/{resource_id}	Update Resource partial
+DELETE	https://domain.com/		{resources}/{resource_id}	Delete Resource
+
+
+Save API
+
+    private Long departmentId;  (auto)
+
+    private String departmentName;
+    private String departmentAddress;
+    private String departmentCode;
+
+User fill from -> submit -> post data to particular api -> store in db
+	
+{
+    "departmentName": "IT",	
+    "departmentAddress": "Bangalore",
+    "departmentCode": "IT-09"
+}
+
+
+
+
+POST 	http://localhost:8082/deparments		Create Department
+GET  	http://localhost:8082/deparments		Return all Department
+GET  	http://localhost:8082/departments/{id}		Return by id
+PUT  	http://localhost:8082/departments/{id}		Update Department by id
+DELETE  http://localhost:8082/departments/{id}		Delete dep by id
+Fetch dep by name
+GET  	http://localhost:8082/departments/name/{name}	Get Department By Name
+
+------------------------------------------
+Validation
+Adding Loggers 
+-----------------------------
+
+
+Lombok?
+
+
+
+
+
+
+
+
+
+
+
+
