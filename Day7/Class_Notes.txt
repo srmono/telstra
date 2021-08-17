@@ -49,6 +49,31 @@ Adding Loggers
 
 Lombok?
 
+----------------------------
+
+h2 -> mysql
+login to mysql console 
+create db
+update depedency in pom.xml
+update properties in application.properties
+
+mysql -u root -p
+mysql> create database tlsdb
+--------------------------------------------------------------
+
+JWT : Json Web Token
+
+Securing 
+	Login & Password
+	oauth token
+	JWT 
+	RSA keys
+----------------------------------------
+	
+	
+
+
+
 
 
 
