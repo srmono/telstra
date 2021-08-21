@@ -1,0 +1,26 @@
+
+
+1. Download and install kafka
+	https://www.apache.org/dyn/closer.cgi?path=/kafka/2.8.0/kafka_2.13-2.8.0.tgz
+2. Configuration 
+	-> Log location
+	-> Zoo keeper data location 
+3. Run Kafka and Zookeeper
+	-> Start Zookeeper
+		.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+	-> Start Kafka
+		.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+4. Create Topics
+	.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic TelstraTopic
+
+	-> List topics
+		.\bin\windows\kafka-topics.bat --list --zookeeper localhost:2181
+5. Create messages with producer
+	.\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic TelstraTopic
+		>I love kafka
+		>welcome to kafka streams
+6. Consume messages with consumer
+	.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic TelstraTopic --from-beginning
+
+
