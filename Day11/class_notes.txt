@@ -1,0 +1,203 @@
+HTML:
+	Hyper Text Markup Language 
+
+Html purpose to display content and describe web pages
+
+-------------------------------------
+Tags: 2 tags / Elements
+
+paragraph element:  <p> </p>
+
+self closed elements: <input />, <meta>
+
+---------------------------------------
+HTML ANATOMY: 
+
+
+w3c standards?
+
+<!DOCTYPE html> : html 5 
+<html>
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="author" content="venkat" >
+    <meta name="keywords" content="html, tutorials, web tutorials"> Offline SEO
+    <title>::Telstra Website ::</title>
+</head>
+<body>
+    
+</body>
+</html>
+--------------------------------------------------------------------------
+
+
+
+Text:
+	header, paragraph, small text ............
+List
+Table
+Links
+media:
+	images
+	audio
+	video
+iframes
+
+
+n number of elements: 
+	2 categories : 
+		inline elements: takes content width it doesn't have line break
+		block level elements: takes full width of the browser, and it has line break
+
+--------------------------------------------
+entities: 
+&nbsp;
+&copy;
+&reg;
+---------------------------------------
+Lists and table
+--------------------------------------
+Links:
+	relative   path/links      http://127.0.0.1:5500/HTML/www.google.in
+	absolute  path/links		
+--------------------------------
+images:	types
+	jpg/jpeg
+	png
+	gif transparent and animation
+	mpeg
+
+https://css-tricks.com/time-for-next-gen-codecs-to-dethrone-jpeg/
+
+
+https://css-tricks.com/tag/image-formats/
+
+
+
+http://127.0.0.1:5500/HTML/forms.html  ?  username=venkat & pw=jljlj%3Bl post
+----------------------------------------------
+Css : Cascading Style Sheet 
+
+ wall then apply paint 
+ 	width: 6ft
+	height: 8ft 
+ 
+ select html elements and we add styles 
+
+Selectors : 
+ 	tag  p{style}
+
+employ ramesh1:  009
+employ ramesh2:  00989
+	id : 
+	class: 
+https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+
+Styles:  key: value  or prop : value
+ 	color: black;
+	width:
+	height
+	.....................
+
+syntax: 
+	selector { prop: value; prop: value;}
+
+3 ways to apply css 
+------------------------------------------------------
+
+Designer  -> high fiddle design  -> convert into html
+
+
+--------------------------
+
+https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css
+https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js
+https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
