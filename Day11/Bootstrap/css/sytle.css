@@ -141,7 +141,7 @@ p{
     line-height: 25px;
 }
 
-.main-btn:hover{
+.white-btn:hover{
     background-color: transparent;
     color: var(--primary-color);
     border-color: var(--primary-color);

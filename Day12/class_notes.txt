@@ -1,0 +1,38 @@
+
+Eich created JavaScript 1995 (netscape) : Live Script  
+with in year --> ECMA 
+
+Live Script  --> Java Script
+
+ECMA Script: ES{n}
+
+JavaScript Follows ES version standards 
+
+2014 
+2015 : ES6 
+2016 : ES7....
+
+2019/2020 : ES.Next
+
+2015 ES6 
+
+Transpilers Babel 
+
+ES6 / TypeScript  -> ES5 
+----------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
