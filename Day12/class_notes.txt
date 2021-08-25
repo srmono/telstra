@@ -20,7 +20,37 @@ Transpilers Babel
 
 ES6 / TypeScript  -> ES5 
 ----------------------------------------------------------
+Data Types:
 
+String
+Number
+Boolean
+null
+undefined
+
+Arrays
+Objects
+
+Map()
+Set()
+................
+
+html  -->   css  --> js 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h
 
 
 

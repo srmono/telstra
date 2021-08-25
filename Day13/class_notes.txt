@@ -1,0 +1,29 @@
+189899
+
+JIRA : ?
+
+JavaScript - 
+	Object Based Features/ Patterns 
+	Introduction to Events , 
+	working with RegEx, 
+	validating forms with JavaScript 	
+
+
+OBJECT:  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object 
+
+
+properties and methods
+
+tools.constructor 
+ƒ Array() { [native code] }
+var name = "venkat"
+undefined
+name.constructor
+ƒ String() { [native code] }
+var num = 10;
+undefined
+num.constructor
+ƒ Number() { [native code] }
+
+
+Objects ref: https://www.w3schools.com/jsref/  
