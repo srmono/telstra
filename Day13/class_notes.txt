@@ -27,3 +27,48 @@ num.constructor
 
 
 Objects ref: https://www.w3schools.com/jsref/  
+
+Problem statement: Get Page name
+
+https:// www.w3schools.com / jsref/   jsref_obj_string.asp
+
+--------------------------------------------------------------------------------
+
+Events ?
+
+	Mouse :  click, dbl click , mouseover , mouse out ....................
+	KeyBoard: key press, key up ............
+	Page : onload,.....
+	forms: focus on input
+	clipboard: cut, copy, paste
+
+https://www.w3schools.com/jsref/dom_obj_event.asp  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
