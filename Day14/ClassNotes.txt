@@ -1,0 +1,25 @@
+
+Closures and Scopes 
+
+Ajax 
+Form Submit
+ES6
+
+Advance filtering (Array, es6)
+Async 
+Promise and Async Await
+
+client -> text -> parse as a json 
+
+server -->  string 
+
+26th aug  till 25th sep
+
+// funciton 
+// objects 
+// classes
+// promise 
+// async await 
+// new operators
+// new data structures 
+// ...............
