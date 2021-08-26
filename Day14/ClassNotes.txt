@@ -4,8 +4,8 @@ Closures and Scopes
 Ajax 
 Form Submit
 ES6
-
 Advance filtering (Array, es6)
+
 Async 
 Promise and Async Await
 
@@ -23,3 +23,26 @@ server -->  string
 // new operators
 // new data structures 
 // ...............
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
