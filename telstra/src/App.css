@@ -1,0 +1,10 @@
+.App{
+  text-align: center;
+}
+.success {
+  color: greenyellow;
+}
+
+.error{
+  color: crimson;
+}

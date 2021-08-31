@@ -1,0 +1,47 @@
+
+TypeScript?
+	Superset of JS and Open source
+
+supports static types
+types are optional
+Compile down to regular js
+Can be used front-end and backend node js
+ES6, .... ESNEXT features 
+
+Dynamic vs Static Typing
+
+
+Node Js: Run time environemnt for JS
+npm 
+
+tsc filename --> compile down to js and generate new js file
+tsc : compile down all ts files in project directory
+
+-----------------------------------------------------------------------------
+
+TS Config file:? 
+	tsc --init 
+
+ts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

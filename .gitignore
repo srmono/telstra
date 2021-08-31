@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/telstra/node_modules
+/telstra/.pnp
+/telstra.pnp.js
+
+# testing
+/telstra/coverage
+
+# production
+/telstra/build
+
+# misc
+/telstra/.DS_Store
+/telstra/.env.local
+/telstra/.env.development.local
+/telstra/.env.test.local
+/telstra/.env.production.local
+
+/telstra/npm-debug.log*
+/telstra/yarn-debug.log*
+/telstra/yarn-error.log*

@@ -25,7 +25,11 @@ server -->  string
 // ...............
 
 
+Telstra : 10 + 8 + {n_y} = 18
 
+	team 1 : proj 1 :   10 yrs
+	team 2 : proj 2 :   8 yrs
+	.............................
 
 
 
