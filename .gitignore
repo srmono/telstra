@@ -4,17 +4,17 @@
 /telstra/node_modules
 /telstra/.pnp
 /telstra.pnp.js
-/redux/node_modules
-/redux/.pnp
-/redux.pnp.js
+/react_redux/node_modules
+/react_redux/.pnp
+/react_redux.pnp.js
 
 # testing
 /telstra/coverage
-/redux/coverage
+/react_redux/coverage
 
 # production
 /telstra/build
-/redux/build
+/react_redux/build
 
 # misc
 /telstra/.DS_Store
@@ -27,12 +27,12 @@
 /telstra/yarn-debug.log*
 /telstra/yarn-error.log*
 
-/redux/.DS_Store
-/redux/.env.local
-/redux/.env.development.local
-/redux/.env.test.local
-/redux/.env.production.local
+/react_redux/.DS_Store
+/react_redux/.env.local
+/react_redux/.env.development.local
+/react_redux/.env.test.local
+/react_redux/.env.production.local
 
-/redux/npm-debug.log*
-/redux/yarn-debug.log*
-/redux/yarn-error.log*
+/react_redux/npm-debug.log*
+/react_redux/yarn-debug.log*
+/react_redux/yarn-error.log*
